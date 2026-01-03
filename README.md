@@ -66,3 +66,71 @@ Steps performed:
 ## The model performs better at predicting non-survival than survival.
 
 
+|             | Predicted No | Predicted Yes |
+|-------------|--------------|---------------|
+| Actual No   | 89           | 16            |
+| Actual Yes  | 21           | 53            |
+
+
+
+
+## 🚀 How to Run
+
+1. Clone the repo  
+2. Install dependencies  
+   `pip install -r requirements.txt`  
+3. Open `notebooks/titanic_end_to_end.ipynb`  
+4. Run cells in order
+
+
+
+
+## Model result
+
+| Metric    | Score |
+| --------- | ----- |
+| Accuracy  | 0.79  |
+| Precision | 0.77  |
+| Recall    | 0.72  |
+
+
+
+### Survival by Gender
+
+![Survival by Gender](assets/EDA1.png)
+
+**Insight:**
+- A significantly higher number of **female passengers survived** compared to males.
+- Most **male passengers did not survive**, indicating gender was a strong factor in survival.
+
+
+
+
+### Passenger Class Distribution
+
+![Passenger Class Distribution](assets/EDA2.png)
+
+**Insight:**
+- Most passengers belonged to **3rd class**, followed by 1st and 2nd class.
+- This imbalance suggests socio-economic class may influence survival probability.
+
+
+
+
+### Age Distribution
+
+![Age Distribution](assets/EDA3.png)
+
+**Insight:**
+- The age distribution is **right-skewed**, with most passengers between **20–40 years**.
+- Fewer elderly passengers were present, creating a long right tail in the distribution.
+
+
+
+### Overall Survival Count
+
+![Overall Survival Count](assets/EDA4.png)
+
+**Insight:**
+- The number of passengers who **did not survive** is higher than those who survived.
+- This indicates **class imbalance**, which should be considered during model evaluation.
