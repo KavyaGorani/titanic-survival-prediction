@@ -59,10 +59,10 @@ Steps performed:
 [89 16]
 [21 53]
 
-# The model correctly identified 89 non-survivors and 53 survivors.
+## The model correctly identified 89 non-survivors and 53 survivors.
 
-# It misclassified 16 non-survivors as survivors and missed 21 actual survivors.
+## It misclassified 16 non-survivors as survivors and missed 21 actual survivors.
 
-# The model performs better at predicting non-survival than survival.
+## The model performs better at predicting non-survival than survival.
 
 
