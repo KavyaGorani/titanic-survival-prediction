@@ -134,3 +134,14 @@ Steps performed:
 **Insight:**
 - The number of passengers who **did not survive** is higher than those who survived.
 - This indicates **class imbalance**, which should be considered during model evaluation.
+
+
+
+
+
+## 🔍 Model Comparison
+
+| Model               | Accuracy |
+|--------------------|----------|
+| Logistic Regression | ~0.79    |
+| Random Forest       | ~0.83    |
