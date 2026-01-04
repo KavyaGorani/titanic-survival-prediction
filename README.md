@@ -145,3 +145,11 @@ Steps performed:
 |--------------------|----------|
 | Logistic Regression | ~0.79    |
 | Random Forest       | ~0.83    |
+
+## Model Result 
+
+| Metric     | Score |
+|------------|-------|
+| Accuracy   | 0.83  |
+| Precision  | 0.81  |
+| Recall    | 0.77  |
